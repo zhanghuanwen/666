@@ -41,7 +41,10 @@ INSTALLED_APPS = [
     'user',
     'sex',
     'income',
-    'education'
+    'education',
+    'search',
+    'forum',
+    'activity'
 ]
 
 MIDDLEWARE = [

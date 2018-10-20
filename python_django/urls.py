@@ -21,7 +21,9 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^$', views.index,name='index'),
-
     path('user/', include('user.urls',namespace='django-user')),
+    path('search/', include('search.urls',namespace='django-search')),
+    path('activity/', include('activity.urls',namespace='django-activity')),
+    path('forum/', include('forum.urls',namespace='django-forum')),
 
 ]
